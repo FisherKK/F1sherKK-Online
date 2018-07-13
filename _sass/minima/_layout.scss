@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $theme-color-dark;
+  // border-bottom: 1px solid $theme-color-light;
   min-height: $spacing-unit * 1.865;
+  background: #f7f7f7;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -20,7 +21,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $theme-color-dark;
   }
 }
 
@@ -51,7 +52,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $theme-color-light;
     border-radius: 5px;
     text-align: right;
 
@@ -74,7 +75,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $theme-color-dark;
       }
     }
 
@@ -106,8 +107,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  // border-top: 1px solid $theme-color-light;
   padding: $spacing-unit 0;
+  background: #f7f7f7;
 }
 
 .footer-heading {
@@ -123,7 +125,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $theme-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -199,7 +201,8 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $theme-color;
+  text-align: center;
 }
 
 .post-link {
@@ -220,6 +223,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  text-align: center;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
