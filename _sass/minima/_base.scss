@@ -129,7 +129,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $theme-color;
+  color: $theme-color-dark;
   border-left: 4px solid $theme-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
@@ -192,8 +192,6 @@ pre {
   }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -210,8 +208,8 @@ pre {
  */
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     display: inline-block;
     fill: #{$theme-color};
     padding-right: 5px;
@@ -229,27 +227,58 @@ pre {
 /**
  * Tables
  */
+// table {
+//   margin-bottom: $spacing-unit;
+//   width: 100%;
+//   text-align: $table-text-align;
+//   color: lighten($text-color, 18%);
+//   border-collapse: collapse;
+//   border: 1px solid $theme-color-light;
+//   tr {
+//     &:nth-child(even) {
+//       background-color: lighten(#333333, 6%);
+//     }
+//   }
+//   th, td {
+//     padding: ($spacing-unit / 3) ($spacing-unit / 2);
+//   }
+//   th {
+//     background-color: lighten($theme-color-light, 3%);
+//     border: 1px solid darken($theme-color-light, 4%);
+//     border-bottom-color: darken($theme-color-light, 12%);
+//   }
+//   td {
+//     border: 1px solid $theme-color-light;
+//   }
+// }
+
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $theme-color-light;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($theme-color-light, 6%);
-    }
-  }
+  border-top: 1px solid $theme-color-light;
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
     background-color: lighten($theme-color-light, 3%);
-    border: 1px solid darken($theme-color-light, 4%);
-    border-bottom-color: darken($theme-color-light, 12%);
+    border-top: 1px solid $theme-color-light;
   }
   td {
-    border: 1px solid $theme-color-light;
+    border-top: 1px solid $theme-color-light;
   }
+}
+
+
+/**
+ * Lines
+ */
+.line{
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid black;
+  border-color: #dddddd;
+  position: absolute;
 }

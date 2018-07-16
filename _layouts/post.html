@@ -10,9 +10,21 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">by {{ page.author }}</span></span>
+      {%- endif -%}
+
+      {% capture words %}
+        {{ page.content | number_of_words | minus: 250 }}
+      {% endcapture %}
+      {% unless words contains "-" %}
+        • {{ words | plus: 250 | divided_by: 220 | append: " min read" }}
+      {% endunless %}</p>
+
+      <div class="post-meta-tags">
+        {{ page.categories | join: ', ' }}
+      </div>
 
       {% include mathjax.html %}
   </header>
@@ -33,7 +45,7 @@ layout: default
     (d.head || d.body).appendChild(s);
   })();
   </script>
-  
+
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
   {% endif %}
