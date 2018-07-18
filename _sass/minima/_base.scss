@@ -148,12 +148,8 @@ a {
     text-decoration: underline;
   }
 
-  .social-media-list &:hover {
+  .site-social-media-icons &:hover {
     text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
   }
 }
 
@@ -243,7 +239,7 @@ pre {
 .svg-icon {
     width: 24px;
     height: 24px;
-    display: inline-block;
+    display: inline;
     fill: #{$theme-color-dark};
     padding-right: 5px;
     vertical-align: middle;
