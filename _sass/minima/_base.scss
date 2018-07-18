@@ -1,13 +1,16 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+body, p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
 
 
 /**
@@ -26,6 +29,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  overflow-y: scroll;
 }
 
 
@@ -59,6 +63,31 @@ img {
   vertical-align: middle;
 }
 
+.image-offset-top {
+    padding-top: 15px;
+}
+
+.image-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.image-caption {
+  text-align: center;
+  font-size: .8rem;
+  padding-bottom: 15px;
+  color: light-grey;
+}
+
+/**
+ * iframe
+ */
+ iframe {
+   max-width: 100%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   vertical-align: middle;
+ }
 
 
 /**
@@ -97,6 +126,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+.header_padding_top {
+  padding-top: 20px
+}
+
 
 
 /**
@@ -129,8 +162,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $theme-color-dark;
-  border-left: 4px solid $theme-color-light;
+  color: $gray-color-dark;
+  border-left: 4px solid $gray-color-dark;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -208,21 +241,25 @@ pre {
  */
 
 .svg-icon {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
-    fill: #{$theme-color};
+    fill: #{$theme-color-dark};
     padding-right: 5px;
-    vertical-align: text-top;
+    vertical-align: middle;
 }
 
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
+svg path,
+svg circle {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
-
+.svg-icon:hover path {
+    fill: #{$theme-color-light};
+}
 
 /**
  * Tables
@@ -258,27 +295,16 @@ table {
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border-top: 1px solid $theme-color-light;
+  border-top: 1px solid $gray-color-light;
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: ($spacing-unit / 6) ($spacing-unit / 6);
   }
   th {
     background-color: lighten($theme-color-light, 3%);
-    border-top: 1px solid $theme-color-light;
+    border: 1px solid darken($theme-color-light, 4%);
+    border-bottom-color: darken($theme-color-light, 12%);
   }
   td {
-    border-top: 1px solid $theme-color-light;
+    border-top: 1px solid $gray-color-light;
   }
-}
-
-
-/**
- * Lines
- */
-.line{
-  width: 112px;
-  height: 47px;
-  border-bottom: 1px solid black;
-  border-color: #dddddd;
-  position: absolute;
 }
