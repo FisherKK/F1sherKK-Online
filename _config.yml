@@ -31,11 +31,6 @@ highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-inline-svg
-
-# SVG plugin
-svg:
-  optimize: true
 
 
 
