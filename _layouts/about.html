@@ -7,21 +7,24 @@
 
     {%- include header.html -%}
 
-    <main class="about_background page-content" aria-label="Content">
+    <main class="about_background page-content, centered_wrapper" aria-label="Content">
 
-      <div class="wrapper">
-        <img class="about_avatar" style="margin-top: 30px" src="assets/images/img_kamilkrzyk2.png"></img>
-      </div>
+        <div class="centered_content">
+          <img class="about_avatar" style="margin-bottom: 10px; padding: 10px;" src="assets/images/img_kamilkrzyk2.png"></img>
 
-      <div class="card-wrapper">
-        <div class="about-card-text card card-shadow">FRYTUNIE</div>
-        <div class="about-card-text card card-shadow">SĄ</div>
-        <div class="about-card-text card card-shadow">SUPCIO</div>
-      </div>
+          <div class="wrapper">
+            <div class="about-card-text justify-content-center card card-shadow">
+              <h2>Hi! My name is Kamil Krzyk</h2>
+              I am a Machine Learning passionate with love towards solving problems, digging into new algorithms, gaining knowledge a sharing it with others. It's my daily routine and hobby. You can find me in roles of event speaker, blogger or trainer at various workshops.
+              <br><br>
+              Apart from that, I have about five years experience as a Full Stack Engineer. I have worked on projects which required me to use skills from various fields: Android, QA Automation, Data Engineering, DevOps and more.
+            </div>
+          </div>
+        <div>
 
     </main>
 
-    {%- include footer.html -%}
+    {%- include absolute_footer.html -%}
 
   </body>
 

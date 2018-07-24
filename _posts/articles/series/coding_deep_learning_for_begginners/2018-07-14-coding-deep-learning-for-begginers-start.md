@@ -2,7 +2,7 @@
 layout: post
 author: Kamil Krzyk
 title:  "Coding Deep Learning for Beginners — Start!"
-date:   2018-07-14 13:45:00 +0200
+date:   2018-02-12 13:45:00 +0200
 comments: true
 categories: machine_learning deep_learning history
 permalink: article/coding_deep_learning_series/:year/:month/:day/:title

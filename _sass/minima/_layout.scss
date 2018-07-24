@@ -103,6 +103,14 @@
   background: #f7f7f7;
 }
 
+.site-fixed-footer {
+  height: $spacing-unit * 1.865;
+  width: 100vw;
+  background: #f7f7f7;
+  bottom: 0;
+  position: fixed;
+}
+
 .footer-wrapper {
   text-align: center;
   vertical-align: middle;
@@ -229,29 +237,21 @@
    height: 190px;
 }
 
-.card-wrapper {
-  padding-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  text-align: center;
-}
-
 .about-card-text {
-  color: $theme-color-dark;
-  text-align: center;
+  color: $text-color;
+  text-align: left;
   vertical-align: middle;
+  font-size: 15px;
+  padding: 20px;
 }
 
 .card {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 250px;
+  height: auto;
   margin: 1rem;
-  position: relative;
-  width: 270px;
+  // width: 100%;
 }
 
 .card-shadow {
