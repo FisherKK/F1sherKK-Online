@@ -19,7 +19,7 @@ description: >-
   My personal website for sharing knowledge and tracking career progress.
   You will find here tutorials, mini projects. articles, study sources,
   event reviews related to Data Science field.
-baseurl: "/F1sherKK-Online/"
+baseurl: "/"
 url: "http://fisherkk.github.io"
 twitter_username: F1sherKK
 github_username: F1sherKK
