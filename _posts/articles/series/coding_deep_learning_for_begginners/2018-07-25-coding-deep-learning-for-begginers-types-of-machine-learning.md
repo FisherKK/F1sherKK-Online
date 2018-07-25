@@ -2,7 +2,7 @@
 layout: post
 author: Kamil Krzyk
 title:  "Coding Deep Learning for Beginners — Types of Machine Learning"
-date:   2018-07-24 09:00:00 +0200
+date:   2018-07-25 08:00:00 +0200
 comments: true
 categories: machine_learning deep_learning reinforcement_learning model
 permalink: article/coding_deep_learning_series/:year/:month/:day/:title
