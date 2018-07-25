@@ -12,6 +12,8 @@ permalink: article/coding_deep_learning_series/:year/:month/:day/:title
 
 This is the 1st article of series **“Coding Deep Learning for Beginners”**. You will be able to find here links to all articles, agenda, and general information about an estimated release date of next articles **on the bottom**. They are also available in [my open source portfolio — MyRoadToAI](https://github.com/FisherKK/F1sherKK-MyRoadToAI), along with some mini-projects, presentations, tutorials and links.
 
+You can also read the article on [Medium](https://medium.com/@krzyk.kamil/coding-deep-learning-for-beginners-start-a84da8cb5044).
+
 •&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•
 {: .separator}
 
@@ -121,22 +123,3 @@ The approach will be bottom-up then:
 - high-level — very popular framework that allows you to create Neural Networks really fast — Keras.
 
 This project will focus only on Multilayer Perceptrons. It’s already a lot of work to be done. If it succeeds I might consider doing an extension for Convolutional Neural Networks, Recurrent Neural Networks, and Generative Adversarial Neural Networks.
-
-{: .header_padding_top}
-## Agenda
-In the future, you can expect articles covering topics below (order might change):
-
-1. Introduction to Logistic Regression
-2. Logistic Regression as small Neural Network
-3. Idea of Multilayer Perceptron
-4. Detailed explanation Backpropagation with examples
-5. Gradient checking
-6. Preparing data for Neural Network — Normalisation, Standarisation
-7. Activation functions and intuition behind them
-Softmax, One Hot Encoding
-8. Weight Initialisation, Vanishing Gradient, Exploding Gradient
-9. Stochastic Gradient Descent, Mini Batch, Batch Gradient Descent
-10. Optimisers
-11. Tuning Hyperparameters
-12. Learning Curves, Overfitting, Bias
-13. Methods of Regularisation — Dropout, Batch Normalization

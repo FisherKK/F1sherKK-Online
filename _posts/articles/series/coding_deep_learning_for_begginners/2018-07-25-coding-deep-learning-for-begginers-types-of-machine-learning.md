@@ -10,6 +10,8 @@ permalink: article/coding_deep_learning_series/:year/:month/:day/:title
 
 This is the 2nd article of series **“Coding Deep Learning for Beginners”**. You will be able to find here links to all articles, agenda, and general information about an estimated release date of next articles **on the bottom**. They are also available in [my open source portfolio — MyRoadToAI](https://github.com/FisherKK/F1sherKK-MyRoadToAI), along with some mini-projects, presentations, tutorials and links.
 
+You can also read the article on [Medium](https://medium.com/@krzyk.kamil/coding-deep-learning-for-beginners-types-of-machine-learning-b9e651e1ed9d).
+
 •&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•
 {: .separator}
 
