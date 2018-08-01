@@ -99,3 +99,6 @@ Simulating the movement of 3D models is a complicated task. Such models need to 
 {: .header_padding_top}
 ## Summary
 And that's it. In the next article, I will explain basics and implementation of Linear Regression algorithm which is one of the basic Supervised Learning algorithms.
+
+## Next Article
+The next article is available [here](https://kamilkrzyk.com/article/coding_deep_learning_series/2018/08/01/coding-deep-learning-for-begginers-linear-regression-initialization-and-prediction).

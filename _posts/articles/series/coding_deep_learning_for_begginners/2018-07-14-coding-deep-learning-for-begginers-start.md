@@ -123,3 +123,6 @@ The approach will be bottom-up then:
 - high-level — very popular framework that allows you to create Neural Networks really fast — Keras.
 
 This project will focus only on Multilayer Perceptrons. It’s already a lot of work to be done. If it succeeds I might consider doing an extension for Convolutional Neural Networks, Recurrent Neural Networks, and Generative Adversarial Neural Networks.
+
+## Next Article
+The next article is available [here](https://kamilkrzyk.com/article/coding_deep_learning_series/2018/07/25/coding-deep-learning-for-begginers-types-of-machine-learning).

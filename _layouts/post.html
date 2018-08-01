@@ -19,7 +19,7 @@ layout: default
         {{ page.content | number_of_words | minus: 250 }}
       {% endcapture %}
       {% unless words contains "-" %}
-        • {{ words | plus: 250 | divided_by: 220 | append: " min read" }}
+        • {{ words | plus: 250 | divided_by: 250 | append: " min read" }}
       {% endunless %}</p>
 
       <div class="post-meta-tags">
