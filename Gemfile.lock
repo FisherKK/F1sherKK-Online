@@ -29,9 +29,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.10.0)
       jekyll (~> 3.3)
-    jekyll-inline-svg (0.0.2)
-      jekyll (~> 3.3)
-      svg_optimizer (= 0.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -45,13 +42,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    mini_portile2 (2.3.0)
     minima (2.5.0)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    nokogiri (1.8.4)
-      mini_portile2 (~> 2.3.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
@@ -66,8 +60,6 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    svg_optimizer (0.1.0)
-      nokogiri
 
 PLATFORMS
   ruby
@@ -75,9 +67,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.3)
   jekyll-feed (~> 0.6)
-  jekyll-inline-svg (~> 0.0.1)
   minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
-   1.16.2
+   1.16.4
